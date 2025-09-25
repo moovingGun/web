@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const weak = new WeakMap();
+        const keyObj = {};
+        const key = Symbol("ref");
+        weak.set(keyObj, "value");
+        weak.set(key, "ECMAScript 2023");
+        console.log(weak.get(keyObj)); 
+        console.log(weak.get(key));   
+    </script>
+    <script>
+       
+        const original = [1, 4];
+        const spliced = original.toSpliced(1, 2, 3, 5); 
+        console.log(original); 
+        console.log(spliced);  
+    </script>
+    <script>
+       
+        const original2 = [1, 2, 2, 4];
+        const withThree = original2.with(2, 3); 
+        console.log(original2);   
+        console.log(withThree);  
+    </script>
+</body>
+</html>

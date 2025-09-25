@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML5 기본 프로젝트</title>
+  <style>
+    .box{
+        display: flex;
+        border: 1px solid #ccc;
+        border-radius:20px;
+        overflow: hidden;
+        width: 200px;
+    }
+    .box input[type="text"]{
+        border: none;
+        padding: 5px;
+        flex: 1;
+        outline: none;
+    }
+    .box input[type="submit"]{
+        border: none;
+        background-color: #ccc;
+        color: black;
+        padding: 5px 10px;
+        
+    }
+    .main-title {
+        text-align: left;
+        font-weight: 400;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .sub-title {
+        text-align: left;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-left: 20px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    header h1 {
+      padding: 40px 50px 0; 
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    header h2 {
+      font-size: 15px;
+      text-align: left;
+      padding-left: 50px;
+      padding-top: 0;
+      padding-bottom: 10px;
+      margin-top: 0;
+      margin-bottom: 30px;
+      color:gray;
+    }
+    nav {   
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding: 5px 20px;
+        
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+    nav ul li {
+        color: gray;
+        cursor: pointer;
+    }
+    nav ul li:hover {
+        color:black;
+    }
+    nav form {
+        display: block;
+        height: 26px;
+    }
+    nav > div:last-child {
+        margin-left: auto;
+    }
+    body > div > div {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    aside {
+        flex-shrink: 0;
+        margin-right : 150px;
+    }
+    aside ul{
+        list-style: none;
+        padding-left: 8px;
+        margin-top: 0px;
+        padding-top: 0px;
+        
+    }
+    aside h3 {
+        margin-bottom: 5px;
+    }
+    aside ul li {
+        margin-bottom: 7px;
+        
+
+        
+    }
+    footer a {
+      color: blue;
+      text-decoration: none;
+      ;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <header>
+      <h1>HTML5 Example Preview</h1>
+      <h2>컴퓨터공학과</h2>
+    </header>
+    <hr>
+    <nav>
+      <div>
+        <ul>
+          <li>
+            <span>HTML5</span>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+          <li>
+            <span>CSS3</span>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Javascript</span>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div>
+          <form class = "box">
+            <input type="text">
+            <input type="submit" value="검 색">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <hr>
+    <div>
+      <section>
+        <article>
+          <div>
+            <h1 class="main-title">HTML5 개요와 활용</h1>
+            <p class="sub-title"">2021년 9월 16일</p>
+          </div>
+          <div>
+            <img src="http://placehold.co/430x280">
+            <br>
+            <br>
+            <p>Velit enim fugiat nulla ipsum nulla. Incididunt sit culpa consequat aliquip ex magna veniam velit magna commodo sint mollit consectetur. Nulla incididunt commodo pariatur sunt sint ullamco.</p>
+            <br>
+            <p>Nulla in fugiat eu pariatur sint labore voluptate. Cillum non sint eiusmod anim magna ex ex ipsum officia aliquip excepteur anim proident velit. Nisi cillum deserunt tempor tempor labore anim sint eu minim proident mollit. Sunt labore adipisicing mollit sint sunt laborum occaecat reprehenderit Lorem fugiat. Cillum dolore anim nostrud aliqua aliqua labore mollit. Cillum velit qui officia ea dolor eu.</p>
+          </div>
+        </article>
+        <hr>
+        <article>
+          <div>
+            <h1 class = "main-title">HTML5 응용과 실습</h1>
+            <p class="sub-title">2021년 9월 16일</p>
+          </div>
+          <div>
+            <img src="http://placehold.co/430x280">
+            <br>
+            <br>
+            <p>Velit enim fugiat nulla ipsum nulla. Incididunt sit culpa consequat aliquip ex magna veniam velit magna commodo sint mollit consectetur. Nulla incididunt commodo pariatur sunt sint ullamco.</p>
+            <br>
+            <p>Nulla in fugiat eu pariatur sint labore voluptate. Cillum non sint eiusmod anim magna ex ex ipsum officia aliquip excepteur anim proident velit. Nisi cillum deserunt tempor tempor labore anim sint eu minim proident mollit. Sunt labore adipisicing mollit sint sunt laborum occaecat reprehenderit Lorem fugiat. Cillum dolore anim nostrud aliqua aliqua labore mollit. Cillum velit qui officia ea dolor eu.</p>
+          </div>
+        </article>
+      </section>
+      <aside>
+        <div>
+          <h3>카테고리</h3>
+          <ul>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>최근 글</h3>
+          <ul>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+            <li><a href="#">데이터</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <hr>
+    </div>
+    <footer>
+      <a href="#">Created By MJU CE</a>
+    </footer>
+  </div>
+</body>
+</html>
