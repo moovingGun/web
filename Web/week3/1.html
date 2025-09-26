@@ -8,20 +8,29 @@
         border: 1px solid #ccc;
         border-radius:20px;
         overflow: hidden;
-        width: 200px;
+        width: 170px;
     }
     .box input[type="text"]{
         border: none;
         padding: 5px;
-        flex: 1;
+        width: 120px;
         outline: none;
     }
     .box input[type="submit"]{
         border: none;
         background-color: #ccc;
         color: black;
-        padding: 5px 10px;
+        padding-top: 6px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+        padding-left: 7px;
+        font-size: 14px;
+        white-space: nowrap;
+        width: 120px;
         
+        flex: 1;
+        text-align: left;
+        letter-spacing: -1px;
     }
     .main-title {
         text-align: left;
@@ -104,14 +113,11 @@
     }
     aside ul li {
         margin-bottom: 7px;
-        
-
-        
+        color: gray;
     }
     footer a {
       color: blue;
       text-decoration: none;
-      ;
     }
   </style>
 </head>
@@ -167,10 +173,12 @@
         <article>
           <div>
             <h1 class="main-title">HTML5 개요와 활용</h1>
-            <p class="sub-title"">2021년 9월 16일</p>
+            <p class="sub-title">2021년 9월 16일</p>
           </div>
           <div>
-            <img src="http://placehold.co/430x280">
+            <a href="http://placehold.co/430x280"></a>
+            <img src="img.jpg" class="img">
+            </a>
             <br>
             <br>
             <p>Velit enim fugiat nulla ipsum nulla. Incididunt sit culpa consequat aliquip ex magna veniam velit magna commodo sint mollit consectetur. Nulla incididunt commodo pariatur sunt sint ullamco.</p>
@@ -185,7 +193,9 @@
             <p class="sub-title">2021년 9월 16일</p>
           </div>
           <div>
-            <img src="http://placehold.co/430x280">
+            <a href="http://placehold.co/430x280"></a>
+            <img src="img.jpg" class="img">
+            </a>
             <br>
             <br>
             <p>Velit enim fugiat nulla ipsum nulla. Incididunt sit culpa consequat aliquip ex magna veniam velit magna commodo sint mollit consectetur. Nulla incididunt commodo pariatur sunt sint ullamco.</p>
@@ -198,20 +208,20 @@
         <div>
           <h3>카테고리</h3>
           <ul>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
+            <li>데이터</li>
+            <li>데이터</li>
+            <li>데이터</li>
+            <li>데이터</li>
+            <li>데이터</li>
           </ul>
         </div>
         <div>
           <h3>최근 글</h3>
           <ul>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
-            <li><a href="#">데이터</a></li>
+            <li>데이터</li>
+            <li>데이터</li>
+            <li>데이터</li>
+            <li>데이터</li>
           </ul>
         </div>
       </aside>
