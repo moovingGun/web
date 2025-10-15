@@ -1,0 +1,20 @@
+# C++ 컴파일된 파일들
+*.exe
+*.out
+*.o
+*.obj
+*.dSYM/
+heap_check
+heap_check_array
+
+# IDE 파일들
+.vscode/
+*.code-workspace
+
+# OS 파일들
+.DS_Store
+Thumbs.db
+
+# 임시 파일들
+*.tmp
+*.temp
